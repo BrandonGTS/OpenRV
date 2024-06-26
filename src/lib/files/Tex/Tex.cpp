@@ -10,7 +10,8 @@
 #include <stl_ext/string_algo.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <unistd.h>
+// Removed for Windows, seems not causing any problems
+// #include <unistd.h>
 #include <vector>
 #include <string>
 
